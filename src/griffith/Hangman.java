@@ -62,7 +62,7 @@ public class Hangman {
              */
             if (choice == 1) {
                 /*
-                 * E A S Y M O D E
+                 * E A S Y      M O D E
                  */
                 while (true) {
                     /*
@@ -116,7 +116,7 @@ public class Hangman {
 
             } else if (choice == 2) {
                 /*
-                 * H A R D M O D E
+                 * H A R D       M O D E
                  */
                 while (true) {
                     int[] instance = HungmanGame(sn, rand, hard); // calling Hungman
@@ -192,7 +192,7 @@ public class Hangman {
     }
 
     /*
-     * H U N G M A N G A M E P R O C E S S
+     * H U N G M A N         G A M E        P R O C E S S
      */
 
     public static int[] HungmanGame(Scanner sn, Random rand, String[] words) {
